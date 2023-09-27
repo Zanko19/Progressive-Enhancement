@@ -11,10 +11,17 @@ ul {
     font-size: 21px;
 }
 
-a:link {
-    font-size : 21px;
-    font-color : blue;
-}
-a:visited {
+
+
+
+a:visited, footer a:visited {
     color: purple;
 }
+@media (hover: hover) {
+    a:hover {
+      background: yellow;
+      hover: green;
+    flood-color: blue;
+    }
+  }
+  
