@@ -1,51 +1,62 @@
 
-h1 {
-    font-size: 32px;
-  }
-  
- 
-  p {
-    font-size: 21px;
-    font-family: sans-serif;
-    word-spacing: 1px;
-    color: #0f0d0d;
-  }
-  
+html 
+{
+    
+    background: -webkit-linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
 
-  ul {
-    font-size: 21px;
-  }
-  
- 
-  a:visited, footer a:visited {
-    color: purple;
-  }
-  body {
-    max-width: 90%;
+}    
+body
+{
+    width: 90%;
     margin: 0 auto;
-    background: linear-gradient(to bottom right, #FFFFFF, #FFD700);
-    background-image: url('your-image-url.jpg');
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(9, 5, 59);   
+    background-image: url("https://media.istockphoto.com/id/971028932/vector/farmer-plowing-field-with-horse.jpg?s=612x612&w=0&k=20&c=yXVHsnrdze0NCdz0qBKUfNFeMvX1JogYqA-pIbwuq_k="); 
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
     background-size: cover;
-    background: -webkit-linear-gradient(90deg, rgb(24, 121, 208), rgb(23, 201, 25));
-    background: linear-gradient(90deg, rgb(24, 121, 208), rgb(23, 201, 25));
-
-  }
-  
-  blockquote {
+}
+p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: rgb(9, 5, 59);
+}
+.bad, .good
+{
+    display: inline;
+    text-transform: uppercase;
+}
+.bad
+{
+    color: red;
+}
+.good
+{
+    color: green;
+}
+blockquote
+{
     width: 50%;
     margin: 80px auto;
-    font-size: 160%;
-    background-color: #F5F5F5;
+    font-size: 160% italic;
+    background: grey;
     border-left: 3px solid Firebrick;
-    padding-left: 30px;
-    
-  }
-  
-  
- 
-  a:hover {
-    background: yellow;
-    
-  }
-  
+    padding-left: 30px; 
+}
+q
+{
+    font-style: italic;
+}
+a
+{
+    color: brown;
+}
+
+{
+    font-style: bold;
+}
