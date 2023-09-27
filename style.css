@@ -3,9 +3,18 @@ h1 {
 }
 p{
     font-size: 21px ;
+    font-family: sans-serif;
     word-spacing: 1px;
     color: #0f0d0d;
 }
 ul {
     font-size: 21px;
+}
+
+a:link {
+    font-size : 21px;
+    font-color : blue;
+}
+a:visited {
+    color: purple;
 }
